@@ -25,7 +25,7 @@
 		$db->query("INSERT INTO list(details, date_posted, time_posted, public) VALUES ('$details', '$date', '$time', '$decision')");
 
 		header("location:home.php");
-
+//
 	}
 
 	else
